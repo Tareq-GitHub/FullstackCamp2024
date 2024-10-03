@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Employee Details</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <p><a href="index.html">Main</a></p>
+    <h2>Employee Details</h2>
+
+    <form action="/" method="post">
+        <div class="mb-1">
+            <label for="name" class="form-label"><strong>Name:</strong>  John Smith </label>
+        </div>
+        <div class="mb-1">
+            <label for="name" class="form-label"><strong>E-mail:</strong>example@email.com</label>
+        </div>
+        <div class="mb-1">
+            <label for="name" class="form-label"><strong>Mobile:</strong>962 79 123456</label>
+        </div>
+        <div class="mb-1">
+            <label for="name" class="form-label"><strong><h4>Salary Details</h4></strong></label>
+        </div>
+
+        <div class="mb-3">
+            <input class="form-control w-25" type="text" id="salary" aria-describedby="salary" placeholder="Enter salary">
+        </div>
+
+        <div class="mb-1">
+            <label for="name" class="form-label"><p>Social security: 7.5%<br /><br />Income Tax: 5%</p></label>
+        </div>
+
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit" onclick="CalcNetSalary()">Calculate Salary</button>
+        </div>
+    </form>
+    <div class="mb-1">
+        <label for="name" class="form-label"><p><span id="net-salary"></span></p></label>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
